@@ -12,7 +12,10 @@ const Hero: FunctionalComponent = () => {
       />
 
       <div class="relative z-10 text-white px-4">
-        <h2 class="text-3xl md:text-5xl font-bold mb-4">Krautkramer lab</h2>
+        <h2 class="text-3xl md:text-5xl font-bold mb-4 text-start">
+          <span class="text-lg font-normal">The</span>
+          <div>Krautkramer lab</div>
+        </h2>
         {/* <p class="text-lg max-w-2xl mx-auto">Come join us! :)</p> */}
       </div>
     </section>
