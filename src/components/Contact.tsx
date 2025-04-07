@@ -1,6 +1,6 @@
 import { FunctionalComponent } from 'preact';
 
-const s = [String.fromCharCode(64), 'kkrautkramer', 'uwalumni.com'];
+const s = [String.fromCharCode(64), 'kimberly.krautkramer', 'wlab.gu.se'];
 
 const Contact: FunctionalComponent = () => {
   return (
@@ -12,7 +12,9 @@ const Contact: FunctionalComponent = () => {
           {`{{spam@uce.gov}}`.replace(/{{.+?(}})/g, s[1] + s[0] + s[2])}
         </a>
       </p>
-      <p class="text-gray-600">Department of XYZ, [University Name], [Address]</p>
+      <p class="text-gray-600">
+        Department of Molacular and Clinical Medicine, Gothenburg University
+      </p>
     </section>
   );
 };

@@ -3,17 +3,20 @@ import { FunctionalComponent } from 'preact';
 const Header: FunctionalComponent = () => {
   return (
     <header class="flex items-center justify-between px-6 py-4 border-b">
-      <h1 class="text-xl font-bold tracking-tight">Krautlab</h1>
+      <h1 class="text-xl font-bold tracking-tight">
+        <span class="text-base font-normal">The</span>
+        <br /> Krautkramer Lab
+      </h1>
       <nav class="space-x-6 text-sm">
-        <a href="#research" class="hover:underline">
+        {/* <a href="#research" class="hover:underline">
           Research
-        </a>
+        </a> */}
         <a href="#people" class="hover:underline">
           People
         </a>
-        <a href="#publications" class="hover:underline">
+        {/* <a href="#publications" class="hover:underline">
           Publications
-        </a>
+        </a> */}
         <a href="#contact" class="hover:underline">
           Contact
         </a>
